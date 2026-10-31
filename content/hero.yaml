@@ -1,16 +1,16 @@
-name: Ravi K Gupta
-title: Backend Systems Engineer · Multi-Tenant SaaS Architecture
-tagline: Laravel & Go backend engineer focused on SaaS products that have to stay fast and predictable.
-location: Noida, Uttar Pradesh, India
+name: Pushpak Thakur
+title: Computer Science Engineering Student
+tagline: Computer Science student focused on Core Java, DSA, and web applications built with Node.js, Express, and JavaScript.
+location: Gurugram, India
 openToWork: true
 highlights:
-  - Working on web backends since 2014
-  - Most of my time goes into multi-tenant SaaS and internal product tooling
-  - Care a lot about stability, data design, and clear APIs
+  - B.Tech in Computer Science & Engineering at Dronacharya College of Engineering (2022 - 2026), 76%
+  - Intern at Indian Oil Corporation Limited, Noida (Jul 2025 - Sep 2025)
+  - Built real-time web, JavaScript tooling, and PHP/MySQL projects
 actions:
   - label: Email
-    href: mailto:dev.ravikgupt@gmail.com
+    href: mailto:thakurpushpak1104@gmail.com
   - label: LinkedIn
-    href: https://www.linkedin.com/in/ravi-k-dev
+    href: https://www.linkedin.com/in/pushpak-thakur
   - label: GitHub
-    href: https://github.com/devravik
+    href: https://github.com/thpushpak04

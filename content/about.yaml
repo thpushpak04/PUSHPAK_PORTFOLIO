@@ -1,17 +1,20 @@
 heading: About
 paragraphs:
   - >-
-    I’ve been working on backend systems since 2014, mostly for SaaS products and web apps that can’t afford to fall
-    over when traffic spikes.
+    I’m a Computer Science Engineering student at Dronacharya College of Engineering (Gurugram University),
+    graduating in 2026. My work so far is in Core Java, object-oriented programming, data structures, DBMS, and web
+    technologies.
   - >-
-    Day to day I’m in Laravel and Go (Fiber): designing APIs, shaping data models, and fixing the parts that usually
-    hurt first - slow queries, missing indexes, noisy background jobs, and brittle integrations.
+    I spend most of my time debugging, solving problems, and building small software systems through coursework and
+    personal projects. Recent work includes a real-time LAN messaging platform, an AI-assisted JavaScript compiler,
+    and a PHP/MySQL fuel-station locator.
   - >-
-    I like being close to the product and building backends that still make sense a few years later, not just for the
-    next release. I’m open to remote backend roles and longer-term work with teams building real products.
+    In 2025 I interned at Indian Oil Corporation Limited in Noida, contributing to internal web applications, front-end
+    modules, backend APIs, and database work alongside senior developers. I’m looking for engineering roles where I
+    can keep building reliable software with a team.
 focusAreas:
-  - Designing and evolving multi-tenant architectures.
-  - Keeping APIs versioned and stable as features change.
-  - Making search, reporting, and analytics fast enough to feel instant.
-  - Tuning queries and indexes instead of only throwing hardware at the problem.
-  - Using queues, workers, and Redis to keep UIs responsive under load.
+  - Core Java, object-oriented programming, and data structures & algorithms.
+  - Database management, SQL, and MySQL.
+  - Web applications with Node.js, Express.js, and REST APIs.
+  - PHP and MySQL applications, including search and data handling.
+  - Debugging, testing, and collaborating with a development team.

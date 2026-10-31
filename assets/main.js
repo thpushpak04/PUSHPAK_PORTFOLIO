@@ -10,8 +10,9 @@ let site = null;
 let profiles = null;
 let activeProfileSlug = "backend";
 let activeProfile = null;
-let pdfFilename = "Ravi-K-Gupta-Resume.pdf";
-let pdfPath = "./assets/Ravi-K-Gupta-Resume.pdf";
+let pdfFilename = "Pushpak-Thakur-Resume.pdf";
+let pdfPath = "./assets/Pushpak-Thakur-Resume.pdf";
+let telHref = "tel:+917982109493";
 let showTargetSelector = false;
 
 const loadContent = async () => {
@@ -305,8 +306,9 @@ const applyCaptcha = () => {
   const reqProfile = urlParams.get("profile");
   activeProfileSlug = (reqProfile && profiles[reqProfile]) ? reqProfile : "backend";
   activeProfile = profiles[activeProfileSlug];
-  pdfFilename = activeProfileSlug === "backend" ? "Ravi-K-Gupta-Resume.pdf" : `Ravi-K-Gupta-Resume-${activeProfileSlug}.pdf`;
+  pdfFilename = "Pushpak-Thakur-Resume.pdf";
   pdfPath = `./assets/${pdfFilename}`;
+  telHref = `tel:+${String(site.contact.phone).replace(/\D/g, "")}`;
   showTargetSelector = urlParams.get("target") === "1";
 
   root.innerHTML = `
@@ -329,12 +331,12 @@ const applyCaptcha = () => {
           <div class="print-contact-row">
             <span><strong>Email:</strong> <a href="mailto:${site.contact.email}">${site.contact.email}</a></span> &bull; 
             <span><strong>Location:</strong> ${site.hero.location}</span> &bull; 
-            <span><strong>Mobile:</strong> <a href="tel:+918285893766">${site.contact.phone}</a></span>
+            <span><strong>Mobile:</strong> <a href="${telHref}">${site.contact.phone}</a></span>
           </div>
           <div class="print-contact-row" style="margin-top:2px;">
-            <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ravi-k-dev" target="_blank" rel="noopener noreferrer">linkedin.com/in/ravi-k-dev</a></span> &bull; 
-            <span><strong>GitHub:</strong> <a href="https://github.com/devravik" target="_blank" rel="noopener noreferrer">github.com/devravik</a></span> &bull; 
-            <span><strong>Portfolio:</strong> <a href="https://devravik.github.io" target="_blank" rel="noopener noreferrer">devravik.github.io</a></span>
+            <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pushpak-thakur" target="_blank" rel="noopener noreferrer">linkedin.com/in/pushpak-thakur</a></span> &bull; 
+            <span><strong>GitHub:</strong> <a href="https://github.com/thpushpak04" target="_blank" rel="noopener noreferrer">github.com/thpushpak04</a></span> &bull; 
+            <span><strong>Portfolio:</strong> <a href="https://thpushpak04.github.io" target="_blank" rel="noopener noreferrer">thpushpak04.github.io</a></span>
           </div>
         </div>
       </div>
@@ -353,7 +355,7 @@ const applyCaptcha = () => {
             <a href="#education">Education</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
-            <a href="#contributions">Contributions</a>
+            <a href="#contributions">Certifications</a>
             <a href="#contact">Contact</a>
           </nav>
         </div>
@@ -383,10 +385,10 @@ const applyCaptcha = () => {
               <div class="hero-meta">
                 <span>${site.hero.location}</span>
                 <span class="sep"></span>
-                <span>Open to remote engineering roles</span>
+                <span>Open to engineering roles</span>
               </div>
               <p class="hero-tagline">${activeProfile.heroTagline.replace(
-          /(Laravel & Go|PHP & Laravel|Full Stack Software Engineer|Single-Page Applications|multi-tenant SaaS|REST APIs|Vue\.js|Inertia\.js)/g,
+          /(JavaScript|Node\.js|MySQL|PHP|Java(?!Script)|SQL)/g,
           "<strong>$1</strong>"
         )}</p>
               <ul class="hero-highlights">
@@ -433,10 +435,10 @@ const applyCaptcha = () => {
                 <div class="hero-stack">
                   <span class="stack-label">Core stack</span>
                   <div class="stack-tags">
-                    ${renderSkillChip("Laravel")}
-                    ${renderSkillChip("Go (Fiber)")}
-                    ${renderSkillChip("Multi-tenant SaaS")}
-                    ${renderSkillChip("APIs")}
+                    ${renderSkillChip("Java (DSA)")}
+                    ${renderSkillChip("Node.js")}
+                    ${renderSkillChip("JavaScript")}
+                    ${renderSkillChip("SQL")}
                   </div>
                 </div>
                 <div class="hero-terminal">
@@ -444,13 +446,13 @@ const applyCaptcha = () => {
                     <span class="dot red"></span>
                     <span class="dot amber"></span>
                     <span class="dot green"></span>
-                    <span class="terminal-title">session: ${activeProfileSlug}.ravi</span>
+                    <span class="terminal-title">session: ${activeProfileSlug}.pushpak</span>
                   </div>
                   <div class="terminal-body">
                     <code><span class="prompt">$</span> tail -f work.log
 <span class="out">&gt;</span> target role: ${activeProfile.name}
-<span class="out">&gt;</span> hardening backends &amp; APIs
-<span class="out">&gt;</span> keeping systems fast &amp; reliable</code>
+<span class="out">&gt;</span> coursework, projects, and the internship
+<span class="out">&gt;</span> building web apps and APIs</code>
                   </div>
                 </div>
               </div>
@@ -638,7 +640,7 @@ const applyCaptcha = () => {
 
         <section id="contributions" class="section">
           <div class="section-inner">
-            ${sectionHeader("06", "Open Source", site.contributions.heading, "OPEN SOURCE CONTRIBUTIONS")}
+            ${sectionHeader("06", "Certificates", site.contributions.heading, "CERTIFICATIONS")}
             <div class="contributions-grid">
               ${site.contributions.items
       .map(
@@ -681,7 +683,7 @@ const applyCaptcha = () => {
               <div>
                 <p class="body-text">
                   I’m ${site.contact.openToWork ? "currently open to" : "selective about"
-    } new backend roles, especially remote positions on SaaS or product teams. Have a project in mind or an opening on your team - send a note and I’ll reply within a day.
+    } software engineering roles and internships. Have a project in mind or an opening on your team - send a note and I’ll reply within a day.
                 </p>
                 <div class="contact-actions" style="display:flex; flex-wrap:wrap; gap:12px; margin-top:20px;">
                   <a href="mailto:${site.contact.email}" class="btn btn-primary">
@@ -714,7 +716,7 @@ const applyCaptcha = () => {
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                     </span>
                     <span class="label">Mobile</span>
-                    <a href="tel:+918285893766" class="link-primary">${site.contact.phone}</a>
+                    <a href="${telHref}" class="link-primary">${site.contact.phone}</a>
                   </li>
                   <li>
                     <span class="contact-item-icon">
@@ -744,7 +746,7 @@ const applyCaptcha = () => {
               <div class="section-side">
                 <form id="workForm" class="work-form" action="https://api.web3forms.com/submit" method="POST">
                   <input type="hidden" name="access_key" value="${site.contact.web3formsKey}" />
-                  <input type="hidden" name="subject" value="New message from devravik.github.io portfolio" />
+                  <input type="hidden" name="subject" value="New message from thpushpak04.github.io portfolio" />
                   <input type="hidden" name="from_name" value="Portfolio Contact" />
                   <input type="checkbox" name="botcheck" class="work-form-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
                   <h3 class="section-subheading">Send a message</h3>
@@ -783,11 +785,11 @@ const applyCaptcha = () => {
             <div class="print-contact-section">
               <ul class="print-contact-grid">
                 <li><strong>Email:</strong> <a href="mailto:${site.contact.email}">${site.contact.email}</a></li>
-                <li><strong>Mobile:</strong> <a href="tel:+918285893766">${site.contact.phone}</a></li>
+                <li><strong>Mobile:</strong> <a href="${telHref}">${site.contact.phone}</a></li>
                 <li><strong>Location:</strong> ${site.contact.location}</li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ravi-k-dev" target="_blank">https://www.linkedin.com/in/ravi-k-dev</a></li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/devravik" target="_blank">https://github.com/devravik</a></li>
-                <li><strong>Portfolio Website:</strong> <a href="https://devravik.github.io" target="_blank">https://devravik.github.io</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pushpak-thakur" target="_blank">https://www.linkedin.com/in/pushpak-thakur</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/thpushpak04" target="_blank">https://github.com/thpushpak04</a></li>
+                <li><strong>Portfolio Website:</strong> <a href="https://thpushpak04.github.io" target="_blank">https://thpushpak04.github.io</a></li>
               </ul>
             </div>
           </div>
@@ -797,7 +799,7 @@ const applyCaptcha = () => {
       <footer class="site-footer">
         <div class="site-footer-inner">
           <span>© ${new Date().getFullYear()} ${site.hero.name}</span>
-          <span class="site-footer-meta">Backend engineering · Laravel · Go · SaaS</span>
+          <span class="site-footer-meta">Computer Science · Java · Web applications</span>
         </div>
       </footer>
     </div>

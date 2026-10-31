@@ -1,30 +1,22 @@
 heading: Featured Project
 projects:
-  - name: Genexr Analytics
-    role: Senior Backend Engineer
-    period: 2025 - Present
+  - name: Convo
+    role: Developer
+    period: Oct 2025 - Apr 2026
     description: >-
-      Multi-tenant analytics platform that sits behind other SaaS products. I’m responsible for the API design, data
-      model, and tenant isolation strategy so each customer gets clean dashboards and exports without ever seeing anyone
-      else’s data.
+      Real-time LAN messaging and social platform, formerly developed as Walkie-Talkie P2P Messenger. It grew from a
+      basic peer-to-peer messenger into a shared-feed social platform for people on the same local network.
     bullets:
-      - >-
-        Architected high-throughput event and metrics data models enabling 1M+ daily event writes with sub-50ms query
-        latency.
-      - Constructed Go (Fiber) services delivering RESTful APIs with sub-10ms median response times.
-      - >-
-        Implemented tenant-aware routing, RBAC authorization, and data isolation across 100+ active multi-tenant
-        databases.
-      - Ran background queues processing 50k+ daily automated aggregations, scheduled reports, and CSV exports.
-      - >-
-        Optimized PostgreSQL analytics schema with custom indexes and partitioning, reducing query execution times by
-        60%.
+      - Developed a real-time LAN communication platform and evolved it from a basic P2P messenger into a social platform with shared feeds.
+      - Implemented Socket.IO-based duplex communication for live chat rooms, instant messaging, and real-time content updates.
+      - Integrated local file sharing and media upload with Multer and Express middleware.
+      - Designed a responsive, lightweight interface for smooth communication across local network environments.
     techStack:
-      - Go (Fiber) services
-      - Next.js reporting dashboard
-      - PostgreSQL analytics schema
-      - Multi-tenant routing & auth
-      - Background jobs & exports
+      - Node.js
+      - Express.js
+      - Socket.IO
+      - JavaScript
+      - Multer
     links:
-      - label: Genexr Analytics
-        href: https://genexr.com
+      - label: GitHub
+        href: https://github.com/thpushpak04/Convo2

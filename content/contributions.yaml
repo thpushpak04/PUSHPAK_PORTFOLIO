@@ -1,99 +1,91 @@
-heading: Open Source Contributions
+heading: Certifications
 items:
-  - name: Laravel Licensing
+  - name: NPTEL - Programming in Java
     description: >-
-      A production-ready Laravel package for generating, managing, activating, and validating software licenses directly
-      inside your application. License keys are hashed before storage (never plaintext in the database), activations are
-      seat-controlled, and the entire lifecycle creation, validation, activation, revocation, and expiry is covered by
-      typed exceptions and dispatchable events.
-    version: 1.0.0
-    stats:
-      downloads: 1+
-      phpVersion: PHP ^8.1
-      license: MIT
-      tests: Covered
+      Elite certification from IIT Kharagpur for Programming in Java, completed with a score of 92%.
     techStack:
-      - Laravel 10/11/12
-      - Bcrypt key hashing
-      - Seat-based activations
-      - Polymorphic ownership
-      - Event-driven architecture
+      - NPTEL
+      - IIT Kharagpur
+      - Java
+      - Elite
+      - "92%"
     links:
-      - label: Packagist
-        href: https://packagist.org/packages/devravik/laravel-licensing
-      - label: GitHub
-        href: https://github.com/devravik/laravel-licensing
-  - name: Laravel Licensing Starter
+      - label: Certificate
+        href: https://drive.google.com/file/d/1vsjOVKmYCNHOUet9g3stx3CiNHiEbgaU/view?usp=sharing
+  - name: NPTEL - Data Structures and Algorithms using Java
     description: >-
-      A starter kit demonstrating devravik/laravel-licensing - a Laravel package for generating, managing, activating,
-      and validating software licenses. This project combines Laravel Breeze (authentication) with a full license
-      management dashboard so you can see the complete workflow in action.
+      Certification from IIT Kharagpur covering data structures and algorithms implemented in Java.
     techStack:
-      - Laravel Breeze
-      - License management dashboard
-      - Full workflow demonstration
-      - API endpoints
-      - Demo data & examples
+      - NPTEL
+      - IIT Kharagpur
+      - Java
+      - DSA
     links:
-      - label: GitHub
-        href: https://github.com/devravik/laravel-licensing-starter
-  - name: Laravel Extended Resources
+      - label: Certificate
+        href: https://drive.google.com/file/d/14nF79i55LKE4ALCISpDcz8XtxHAn14F1/view?usp=sharing
+  - name: Java Certified Foundations Associate
     description: >-
-      A Laravel API resources extension that lets you define multiple named formats using PHP 8 attributes, modify
-      serialized data on the fly, use helpers like only()/except(), and set the HTTP status code from the resource while
-      still feeling native to Laravel.
+      Foundations certification covering the basic elements of Java.
     techStack:
-      - Laravel 10/11/12
-      - PHP 8.1+
-      - API Resources
-      - PHP 8 attributes
-      - Response helpers
+      - Java
+      - Foundations
     links:
-      - label: GitHub
-        href: https://github.com/devravik/extended-resources
-      - label: Packagist
-        href: https://packagist.org/packages/devravik/extended-resources
-  - name: RedditRadar
+      - label: Certificate
+        href: https://skillsoft.digitalbadges.skillsoft.com/1734e18c-657b-465d-b758-f8736e0d5e60#acc.9jrl8an3
+  - name: Master Java Programming Quiz
     description: >-
-      Self-hosted Reddit lead discovery and AI analysis for engineers. Monitors subreddits for hiring posts and founder
-      pain points, scores them against a custom engineer profile, pre-filters noise before LLM inference, and tracks
-      outreach - a lightweight alternative to expensive SaaS lead tools.
+      Java programming quiz certification completed through the SkillEcted Campus Program.
     techStack:
-      - Next.js 16 (App Router)
-      - Prisma 7 + PostgreSQL
-      - Tailwind CSS + shadcn/ui
-      - OpenAI / OpenRouter / Groq
-      - Reddit JSON API
+      - Java
+      - SkillEcted
     links:
-      - label: GitHub
-        href: https://github.com/devravik/RedditRadar
-  - name: Go License API
+      - label: Certificate
+        href: https://www.skillected.com/share-certificate?serialno=SFCDUONF
+  - name: Programming Foundations - Beyond the Fundamentals
     description: >-
-      High-performance, self-hosted license validation service built in Go. Covers everything from simple plugin
-      licensing to large-scale SaaS enforcement: multi-tenant isolation, seat tracking, offline licenses (Ed25519), key
-      rotation, webhooks, and audit logging. Validation runs entirely from an in-memory cache with no DB in the hot
-      path, targeting sub-millisecond p95 latency.
+      LinkedIn Learning course on programming foundations beyond the fundamentals.
     techStack:
-      - Go 1.21+
-      - PostgreSQL 14+
-      - Redis (optional L2 cache)
-      - Ed25519 offline signing
-      - Docker + Kubernetes
+      - LinkedIn Learning
+      - Programming
+    links:
+      - label: Certificate
+        href: https://www.linkedin.com/learning/certificates/282a78d1fd8948eba0458dc0fc11aba8975a28e41de22d85d3359daa4a42e2fe
+  - name: Programming Foundations - Fundamentals
+    description: >-
+      LinkedIn Learning course on programming fundamentals.
+    techStack:
+      - LinkedIn Learning
+      - Programming
+    links:
+      - label: Certificate
+        href: https://www.linkedin.com/learning/certificates/b0927ef356a01c812793531a0767e6b56fed78981859c27e73da305512017ef6
+  - name: Career Essentials in Software Development
+    description: >-
+      Career essentials in software development, offered by Microsoft and LinkedIn.
+    techStack:
+      - Microsoft
+      - LinkedIn
+      - Software Development
+    links:
+      - label: Certificate
+        href: https://www.linkedin.com/learning/certificates/2ace3c96ea32cbc3ade16d84e5633c29024435f5c857f32f12371f0e56707170
+  - name: DSA Practice
+    description: >-
+      Solved 80+ data structures and algorithms problems across LeetCode, GeeksforGeeks, and HackerRank.
+    techStack:
+      - LeetCode
+      - GeeksforGeeks
+      - HackerRank
+      - DSA
     links:
       - label: GitHub
-        href: https://github.com/devravik/go-license-api
-  - name: TalkBridge
+        href: https://github.com/thpushpak04
+  - name: NSS Volunteer
     description: >-
-      Real-time video calls with live AI-translated captions - no app, no account, just a link. Speech is transcribed
-      via Deepgram Nova-2 and translated by Azure Cognitive Services in under 500ms end-to-end, overlaid as live
-      captions on the video feed. Supports 10 languages with an LLM fallback when Azure is unavailable.
+      Selected as an NSS volunteer to attend the Hon'ble Prime Minister's Independence Day address at the Red Fort in 2023.
     techStack:
-      - Go (Fiber) + Gorilla WebSocket
-      - Next.js 14, TypeScript, Tailwind CSS
-      - WebRTC P2P video and audio
-      - Deepgram Nova-2 streaming STT
-      - Azure Cognitive Services Translator
-      - PostgreSQL
+      - NSS
+      - "2023"
     links:
-      - label: GitHub
-        href: https://github.com/devravik/TalkBridge
+      - label: Certificate
+        href: https://drive.google.com/file/d/1Q2gXGwCEAAaYP_BCxWf93gee3Ot0w3E2/view

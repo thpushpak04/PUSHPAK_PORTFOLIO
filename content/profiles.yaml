@@ -1,282 +1,242 @@
 backend:
   slug: backend
-  name: Senior Backend Engineer
-  heroTitle: Backend Systems Engineer · Multi-Tenant SaaS Architecture
-  heroTagline: Laravel & Go backend engineer focused on SaaS products that have to stay fast and predictable.
-  printTitle: Senior Backend Engineer • Multi-Tenant SaaS & Microservices Architecture
-  summaryHeading: EXECUTIVE SUMMARY
+  name: Software Engineer
+  heroTitle: Computer Science Engineering Student · Java, DSA & Web Applications
+  heroTagline: Computer Science student building software with Core Java, data structures, and web technologies.
+  printTitle: Software Engineer • Java, DSA & Web Applications
+  summaryHeading: SUMMARY
   summaryParagraphs:
     - >-
-      Senior Backend Engineer developing reliable systems since 2014, primarily for multi-tenant SaaS products,
-      microservices, and web applications requiring high availability under heavy load.
+      Computer Science Engineering student at Dronacharya College of Engineering (Gurugram University), graduating in
+      2026, with coursework in data structures, algorithms, and database management systems.
     - >-
-      Core work spans Laravel and Go (Fiber): designing REST APIs, shaping relational data models, and eliminating
-      performance bottlenecks-slow SQL queries, unindexed tables, heavy background jobs, and fragile third-party
-      integrations.
+      Skilled in Core Java, object-oriented programming, DSA, DBMS, and web technologies including Node.js, Express.js,
+      JavaScript, PHP, and MySQL. Recent work includes a real-time LAN platform, an AI-assisted JavaScript compiler,
+      and a fuel-station locator.
     - >-
-      Focused on architecting backends and microservices that remain clean, scalable, and maintainable over years of
-      growth. Open to remote backend engineering roles with product-driven engineering teams.
+      Interned at Indian Oil Corporation Limited in Noida (Jul 2025 - Sep 2025) on internal web applications, APIs, and
+      database work. Open to engineering roles on product and software teams.
   focusAreas:
-    - Designing and scaling multi-tenant database & microservices architectures.
-    - Architecting stable, versioned RESTful APIs, GraphQL endpoints, and WebSockets.
-    - Making search, reporting, and analytics endpoints fast and predictable.
-    - Profiling SQL queries and indexes to minimize database load.
-    - Using async queues, workers, and Redis L1/L2 caching.
+    - Core Java, object-oriented programming, and data structures & algorithms.
+    - Relational data with SQL and MySQL.
+    - Web applications using Node.js, Express.js, and REST APIs.
+    - Debugging, testing, and working with a development team.
+    - Academic and personal projects shipped with Git and GitHub.
   featuredProjects:
-    - Genexr Analytics
-    - Fonefix Repair Management System
-    - GigHQ
-    - Planolitix
-    - Moneyguide
-    - Vetty
-    - Skillsnacks
+    - Convo
+    - CompileX
+    - IOCL Fuel Station Locator
 php-laravel:
   slug: php-laravel
-  name: PHP / Laravel Developer
-  heroTitle: Senior PHP / Laravel Developer · SaaS Architecture & Microservices
-  heroTagline: Senior PHP & Laravel developer architecting multi-tenant SaaS platforms, REST APIs, and custom package ecosystems.
-  printTitle: Senior PHP / Laravel Developer • Package, Microservices & SaaS Architecture
-  summaryHeading: EXECUTIVE SUMMARY
+  name: PHP & MySQL Developer
+  heroTitle: PHP & MySQL Developer · Web Applications
+  heroTagline: Student developer building PHP and MySQL web applications with search, reviews, and geolocation.
+  printTitle: PHP & MySQL Developer • Web Applications
+  summaryHeading: SUMMARY
   summaryParagraphs:
     - >-
-      Senior PHP & Laravel Developer with 12+ years of experience engineering multi-tenant SaaS backends, REST APIs,
-      microservices, and reusable package ecosystems.
+      Computer Science student with hands-on PHP and MySQL work, including a geolocation-based fuel station locator
+      with user reviews.
     - >-
-      Core work spans Laravel 10/11/12, Eloquent ORM tuning, queues, Redis caching, Pest/PHPUnit testing, and custom
-      package authoring. Experienced in refactoring legacy codebases, fixing N+1 database bottlenecks, and establishing
-      stable background job pipelines.
+      Built the locator with HTML, CSS, JavaScript, PHP, and MySQL on XAMPP, and tuned search and database queries for
+      faster station lookups.
     - >-
-      Focused on writing clean, well-tested PHP 8.x, maintaining clear API contracts, and keeping database queries
-      predictable under high traffic.
+      Also comfortable with JavaScript, Node.js, and SQL from other coursework and projects. Looking for web
+      development roles that include server-side code and databases.
   focusAreas:
-    - Architecting multi-tenant PHP 8.x & Laravel 11/12 SaaS backends and microservices.
-    - Authoring custom Laravel packages (Licensing, Auth, Tenant Isolation).
-    - Optimizing SQL queries, Eloquent ORM indexing, and Redis L1/L2 caching.
-    - Designing versioned RESTful & GraphQL APIs with Pest & PHPUnit test coverage.
-    - Managing async queues, background workers, Docker containers, and Horizon monitoring.
+    - PHP and MySQL web applications.
+    - Search and database queries for faster lookups.
+    - HTML, CSS, and JavaScript interfaces.
+    - Local development with XAMPP.
+    - Data handling and review workflows.
   featuredProjects:
-    - Fonefix Repair Management System
-    - Vetty
-    - Planolitix
-    - Moneyguide
-    - Skillsnacks
-    - GigHQ
-    - AttendAssist
+    - IOCL Fuel Station Locator
+    - Convo
+    - CompileX
 fullstack:
   slug: fullstack
   name: Full Stack Developer
-  heroTitle: Senior Full Stack Engineer · Laravel, Go, Vue & React
-  heroTagline: Full stack engineer developing production web applications with Laravel, Go, Vue.js, and React.
-  printTitle: Senior Full Stack Engineer • Laravel, Go, React & Vue Applications
-  summaryHeading: EXECUTIVE SUMMARY
+  heroTitle: Full Stack Developer · JavaScript, Node.js & Express
+  heroTagline: Student developer building web applications across the interface, the API, and the database.
+  printTitle: Full Stack Developer • JavaScript, Node.js & Express
+  summaryHeading: SUMMARY
   summaryParagraphs:
     - >-
-      Full Stack Engineer with 12+ years of experience developing complete web applications, interactive dashboards, and
-      backend services.
+      Computer Science Engineering student developing complete web applications, from the page the user sees through
+      to the API and the database.
     - >-
-      Hands-on across the full stack: Laravel, Go, and Node.js on the backend paired with Vue.js, React, and Next.js on
-      the frontend. Manages feature development end-to-end-from database modeling and API endpoints to reactive UI
-      components.
-    - Comfortable owning complete features from schema design to frontend state management and containerized deployment.
+      Hands-on with JavaScript, Node.js, and Express.js, plus PHP and MySQL. Projects include Convo (real-time chat and
+      feeds), CompileX (a JavaScript compiler), and a PHP/MySQL fuel-station locator.
+    - >-
+      Comfortable taking a feature from the interface through the server and into stored data, and debugging it with a
+      team.
   focusAreas:
-    - Full-stack web application & microservices development (Laravel, Go, Vue 3, React 19).
-    - Designing responsive UI components with Tailwind CSS, TypeScript & Pinia/Redux.
-    - Designing versioned RESTful & GraphQL APIs, WebSockets, and server-side rendering (SSR).
-    - Database schema design, SQL query tuning, and Redis in-memory caching.
-    - Docker containerization, AWS cloud infrastructure, and continuous CI/CD pipelines.
+    - JavaScript interfaces with HTML and CSS.
+    - Node.js and Express.js servers and REST APIs.
+    - PHP and MySQL for data-backed web apps.
+    - Real-time updates with Socket.IO.
+    - Git, GitHub, and local setup with XAMPP and VS Code.
   featuredProjects:
-    - Genexr Analytics
-    - KundaliLabs
-    - Fonefix Repair Management System
-    - GigHQ
-    - AttendAssist
-    - Skillsnacks
-    - Planolitix
+    - Convo
+    - CompileX
+    - IOCL Fuel Station Locator
 laravel-vue:
   slug: laravel-vue
-  name: Laravel + VueJS Developer
-  heroTitle: Senior Laravel + Vue.js Developer · Modern SPA & Web Apps
-  heroTagline: Senior developer engineering reactive Single-Page Applications (SPAs) with Laravel, Vue.js, and Inertia.js.
-  printTitle: Senior Laravel + Vue.js Developer • SPA, Inertia.js & Web Applications
-  summaryHeading: EXECUTIVE SUMMARY
+  name: Real-Time Web Developer
+  heroTitle: Real-Time Web Developer · Node.js, Express & Socket.IO
+  heroTagline: Student developer building live chat, messaging, and shared feeds on a local network.
+  printTitle: Real-Time Web Developer • Node.js, Express & Socket.IO
+  summaryHeading: SUMMARY
   summaryParagraphs:
     - >-
-      Senior Web Developer specializing in single-page applications and reactive web interfaces using Laravel, Vue.js
-      (Vue 2/3), and Inertia.js.
+      Computer Science student focused on real-time web applications, led by Convo, a LAN messaging and social
+      platform formerly built as a peer-to-peer messenger.
     - >-
-      Develops modern admin dashboards, SaaS workflows, and interactive frontend tools. Experienced in Vue component
-      architecture, Pinia/Vuex state management, Tailwind CSS, and structuring clean Laravel API backends.
+      Implemented Socket.IO duplex communication for chat rooms, instant messaging, and live content updates, plus
+      file sharing and media upload with Multer and Express.
     - >-
-      Focuses on fast page loads, responsive component state, structured Eloquent queries, and real-time updates via
-      WebSockets.
+      Designed a lightweight interface meant to stay responsive for people communicating on the same local network.
   focusAreas:
-    - Engineering SPAs and Inertia.js web applications with Laravel 11/12 & Vue 3 (Composition API).
-    - Designing reusable Vue 3 components with TypeScript, Tailwind CSS & Pinia.
-    - Developing real-time admin dashboards and reactive data tables.
-    - Connecting Laravel RESTful APIs & WebSockets to Vue frontends with Vite.
-    - Optimizing frontend bundle sizes, SPA state management, and API response times.
+    - Socket.IO for live chat rooms and instant messaging.
+    - Node.js and Express.js request handling.
+    - File sharing and media upload with Multer.
+    - Responsive interfaces for local-network use.
+    - Evolving a small messenger into a shared-feed platform.
   featuredProjects:
-    - Fonefix Repair Management System
-    - GigHQ
-    - Skillsnacks
-    - Planolitix
-    - Vetty
-    - Moneyguide
-    - AttendAssist
+    - Convo
+    - CompileX
+    - IOCL Fuel Station Locator
 golang-nextjs:
   slug: golang-nextjs
-  name: Go + Next.js Specialist
-  heroTitle: Go + Next.js Full Stack Engineer · Real-Time Web Apps
-  heroTagline: Full stack engineer pairing fast Go backend microservices with Next.js & React frontends.
-  printTitle: Senior Go + Next.js Specialist • Real-Time Web Apps & Microservices
-  summaryHeading: EXECUTIVE SUMMARY
+  name: Java Developer
+  heroTitle: Java Developer · Core Java, OOP & DSA
+  heroTagline: Computer Science student focused on Core Java, object-oriented programming, and algorithms.
+  printTitle: Java Developer • Core Java, OOP & DSA
+  summaryHeading: SUMMARY
   summaryParagraphs:
     - >-
-      Full Stack Engineer specializing in high-performance web applications built with Go (Fiber) microservices and
-      Next.js (App Router, React) frontends.
+      Computer Science Engineering student centered on Core Java, object-oriented programming, and data structures and
+      algorithms.
     - >-
-      Experience includes real-time audio streaming platforms (TalkBridge), AI analytics engines (RedditRadar), and SaaS
-      analytics tools (Genexr Analytics). Proficient with WebSockets, WebRTC P2P streaming, PostgreSQL, Prisma, and
-      in-memory Redis caching.
+      Completed NPTEL Programming in Java (Elite, IIT Kharagpur, 92%) and NPTEL Data Structures and Algorithms using
+      Java. Also holds a Java Certified Foundations Associate credential and a SkillEcted Java programming quiz
+      certificate.
     - >-
-      Focuses on keeping API latencies low, UI components clean and responsive, and deployments simple with Docker and
-      self-hosted infrastructure.
+      Practiced with 80+ DSA problems on LeetCode, GeeksforGeeks, and HackerRank, and listed Spring Boot among web
+      technologies alongside REST APIs.
   focusAreas:
-    - Go (Fiber) backend microservices paired with Next.js 15+ (App Router, React 19) frontends.
-    - Real-time WebSockets, WebRTC audio/video streaming, and LLM AI pipelines.
-    - Constructing responsive dashboards with TypeScript, Tailwind CSS, and Server Components.
-    - PostgreSQL database design, Prisma 7 ORM, and Redis L1/L2 caching.
-    - Docker containerization, Kubernetes, and self-hosted CI/CD automation.
+    - Core Java and object-oriented programming.
+    - Data structures and algorithms in Java.
+    - Spring Boot and REST APIs.
+    - Problem solving across LeetCode, GeeksforGeeks, and HackerRank.
+    - Writing and debugging Java with a focus on clear program structure.
   featuredProjects:
-    - Genexr Analytics
-    - KundaliLabs
-    - Fonefix Repair Management System
-    - GigHQ
-    - AttendAssist
-    - Top Places India
-    - Skillsnacks
+    - CompileX
+    - Convo
+    - IOCL Fuel Station Locator
 laravel-react:
   slug: laravel-react
-  name: Laravel + React Developer
-  heroTitle: Senior Laravel + React Developer · Web Apps & APIs
-  heroTagline: Senior developer engineering Laravel REST APIs paired with modern React & Inertia.js user interfaces.
-  printTitle: Senior Laravel + React Developer • Web Applications & RESTful APIs
-  summaryHeading: EXECUTIVE SUMMARY
+  name: JavaScript Developer
+  heroTitle: JavaScript Developer · Web Interfaces & Node.js
+  heroTagline: Student developer building browser interfaces and Node.js tools, including an AI-assisted JavaScript compiler.
+  printTitle: JavaScript Developer • Web Interfaces & Node.js
+  summaryHeading: SUMMARY
   summaryParagraphs:
     - >-
-      Senior Full Stack Developer with 12+ years of experience pairing Laravel backend APIs with React and Inertia.js
-      frontends.
+      Computer Science student building with JavaScript on both the page and the server.
     - >-
-      Skilled in architecting RESTful services, multi-tenant database schemas, and modular React component structures.
-      Hands-on with React Hooks, state management, Tailwind CSS, Inertia.js, and API integration for web and mobile apps
-      (AttendAssist).
-    - Emphasizes clean code organization, rigorous test coverage (Pest/PHPUnit), and fast API query execution.
+      CompileX is an offline JavaScript compiler with AI-driven suggestions, real-time error explanations, and
+      debugging help, using HTML, CSS, JavaScript, Judge-API, Node.js, and Express.js.
+    - >-
+      Also used JavaScript on Convo’s messaging interface and on the fuel-station locator alongside PHP and MySQL.
   focusAreas:
-    - Laravel 11/12 RESTful API backends integrated with React 19 & Inertia.js frontends.
-    - Component-driven UI development using React Hooks, TypeScript & Tailwind CSS.
-    - Database schema design, Eloquent ORM performance tuning, and Redis caching.
-    - Mobile API integration for React Native (Expo) applications.
-    - Structured unit & integration testing with PHPUnit, Pest, and React Testing Library.
+    - HTML, CSS, and JavaScript interfaces.
+    - Node.js and Express.js.
+    - Compiler and debugging workflows in CompileX.
+    - Responsive layouts for project UIs.
+    - Pairing a JavaScript front end with PHP or Node on the server.
   featuredProjects:
-    - AttendAssist
-    - KundaliLabs
-    - Fonefix Repair Management System
-    - Vetty
-    - Planolitix
-    - Skillsnacks
-    - GigHQ
+    - CompileX
+    - Convo
+    - IOCL Fuel Station Locator
 golang:
   slug: golang
-  name: Golang / Systems Engineer
-  heroTitle: Senior Go / Golang Engineer · Concurrent Services & APIs
-  heroTagline: Go backend engineer focused on concurrent microservices, in-memory caching, and low-latency APIs.
-  printTitle: Senior Go / Golang Systems Engineer • Concurrent Microservices & Systems Architecture
-  summaryHeading: EXECUTIVE SUMMARY
+  name: Core Java & DSA
+  heroTitle: Core Java & DSA · Algorithms and Problem Solving
+  heroTagline: Computer Science student practicing Core Java, data structures, and algorithms.
+  printTitle: Core Java & DSA • Algorithms and Problem Solving
+  summaryHeading: SUMMARY
   summaryParagraphs:
     - >-
-      Senior Go Engineer focused on developing fast microservices, in-memory caching layers, and concurrent worker
-      processing systems.
+      Computer Science Engineering student building a foundation in Core Java, object-oriented programming, and
+      algorithms.
     - >-
-      Engineered open-source Go tools including Go License API (Ed25519 cryptographic signing, zero-DB validation path)
-      and TalkBridge (Go Fiber + WebSockets + WebRTC P2P). Proficient with Go concurrency primitives, worker channels,
-      PostgreSQL, and Redis.
+      Coursework covers data structures, algorithms, and database management systems. Certifications include NPTEL
+      Programming in Java (Elite, 92%) and NPTEL Data Structures and Algorithms using Java, both from IIT Kharagpur.
     - >-
-      Aimed at writing clean, maintainable Go code that performs predictably under high concurrent traffic with minimal
-      resource overhead.
+      Solved 80+ DSA problems on LeetCode, GeeksforGeeks, and HackerRank to practice debugging and analytical thinking.
   focusAreas:
-    - Go (Golang) HTTP microservices (Fiber, Gin, Gorilla WebSockets).
-    - Concurrent worker pools, channels, Goroutines, and async job queues.
-    - In-memory L1/L2 cache layers for zero-DB hot-path API validation.
-    - Ed25519 cryptographic signing, gRPC, REST & GraphQL APIs, and tenant isolation.
-    - Docker containerization, Kubernetes orchestration, and CI/CD pipelines.
+    - Core Java and object-oriented design.
+    - Data structures and algorithms.
+    - Problem sets on LeetCode, GeeksforGeeks, and HackerRank.
+    - DBMS and SQL alongside algorithm practice.
+    - Careful debugging when a solution is wrong or slow.
   featuredProjects:
-    - Genexr Analytics
-    - Fonefix Repair Management System
-    - GigHQ
-    - Planolitix
-    - Vetty
-    - Moneyguide
-    - Skillsnacks
+    - CompileX
+    - Convo
+    - IOCL Fuel Station Locator
 lead-backend:
   slug: lead-backend
-  name: Lead / Principal Engineer
-  heroTitle: Lead Backend Engineer & Systems Architect · 12+ Years Experience
-  heroTagline: Engineering leader & SaaS founder managing backend architecture, database scaling, and technical execution.
-  printTitle: Lead Backend Engineer & Systems Architect • Microservices & SaaS Architecture
-  summaryHeading: EXECUTIVE SUMMARY
+  name: Internship-Ready Engineer
+  heroTitle: Internship-Ready Engineer · Web Applications & Team Delivery
+  heroTagline: Computer Science student with internship experience on internal web applications at Indian Oil.
+  printTitle: Internship-Ready Engineer • Web Applications & Team Delivery
+  summaryHeading: SUMMARY
   summaryParagraphs:
     - >-
-      Lead Backend Engineer & Systems Architect with 12+ years of experience architecting multi-tenant SaaS platforms,
-      distributed microservices, and backend APIs.
+      Computer Science Engineering student (B.Tech, 2022 - 2026) with a completed internship and a set of academic and
+      personal software projects.
     - >-
-      Combines background as a senior engineering lead (Waggingtail Technology) and SaaS founder (Genexr Analytics).
-      Experienced in leading architecture decisions, defining API standards, tuning slow SQL queries, and establishing
-      CI/CD practices across engineering teams.
+      Interned at Indian Oil Corporation Limited in Noida from July to September 2025. Contributed to internal web
+      applications, designed front-end modules, integrated backend APIs, and helped with database work, debugging, and
+      testing.
     - >-
-      Focused on aligning product requirements with stable engineering execution, upholding high uptime, and preserving
-      clean microservices architecture.
+      Worked with senior developers to refine workflows and automate repetitive steps. Looking for a team where that
+      kind of delivery continues.
   focusAreas:
-    - Backend architecture and microservices for multi-tenant B2B SaaS platforms.
-    - Designing tenant data isolation, RBAC security, and authorization rules.
-    - SQL query optimization, database indexing, and version-controlled schema migrations.
-    - Defining REST & GraphQL API contracts, OpenAPI specifications, and CI/CD workflows.
-    - Code reviews, technical debt reduction, system design, and engineering mentorship.
+    - Contributing to internal web applications.
+    - Front-end modules and backend API integration.
+    - Database management, debugging, and feature testing.
+    - Collaborating with senior developers on workflow improvements.
+    - Personal projects in JavaScript, Node.js, PHP, and MySQL.
   featuredProjects:
-    - Genexr Analytics
-    - Fonefix Repair Management System
-    - GigHQ
-    - Planolitix
-    - Moneyguide
-    - Vetty
-    - AttendAssist
+    - Convo
+    - IOCL Fuel Station Locator
+    - CompileX
 python-fastapi:
   slug: python-fastapi
-  name: Python / FastAPI Developer
-  heroTitle: Senior Python & FastAPI Developer · Async Microservices & AI
-  heroTagline: Python backend engineer developing async FastAPI microservices, Pydantic validation layers, and AI integrations.
-  printTitle: Senior Python & FastAPI Developer • Async Microservices & AI Integrations
-  summaryHeading: EXECUTIVE SUMMARY
+  name: Python & SQL
+  heroTitle: Python & SQL · Scripting and Databases
+  heroTagline: Computer Science student using Python and SQL alongside Java and web application work.
+  printTitle: Python & SQL • Scripting and Databases
+  summaryHeading: SUMMARY
   summaryParagraphs:
     - >-
-      Senior Python Developer with 12+ years of software engineering experience developing asynchronous APIs, backend
-      services, and AI integrations.
+      Computer Science Engineering student with Python and SQL in the language set, alongside Java, C, C++, and
+      JavaScript.
     - >-
-      Core stack includes FastAPI, Pydantic v2, AsyncIO, SQLAlchemy/SQLModel, Celery, Redis, and PostgreSQL. Experienced
-      connecting LLM APIs (OpenAI, Deepgram, Azure) with real-time WebSocket connections and background task queues.
+      Database work shows up in coursework (DBMS) and in the fuel-station locator, where MySQL queries support search
+      and reviews.
     - >-
-      Emphasizes typed Python 3.12+ code, structured PyTest coverage, clear API documentation, and containerized cloud
-      deployment.
+      Most shipped project code is in JavaScript, Node.js, PHP, and Java. Python is part of the toolkit for scripting
+      and coursework, not a separate product stack.
   focusAreas:
-    - Async RESTful & GraphQL APIs and microservices with Python 3.12+, FastAPI & Pydantic v2.
-    - LLM AI integration (OpenAI GPT-4o, LangChain), streaming STT, and AI pipelines.
-    - SQLAlchemy 2.0 / SQLModel database design, async migrations, and PostgreSQL indexing.
-    - Background job queues with Celery, Redis, and AsyncIO event loops.
-    - Docker containerization, PyTest automation, OpenAPI docs, and CI/CD deployment.
+    - Python as a general-purpose language.
+    - SQL and MySQL for stored data and search.
+    - DBMS coursework, including data structures and algorithms alongside it.
+    - Careful query work for faster lookups.
+    - Using Git and VS Code across languages.
   featuredProjects:
-    - KundaliLabs
-    - Genexr Analytics
-    - Fonefix Repair Management System
-    - AttendAssist
-    - Planolitix
-    - Vetty
-    - Moneyguide
+    - IOCL Fuel Station Locator
+    - Convo
+    - CompileX

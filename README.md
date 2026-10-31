@@ -1,4 +1,4 @@
-## Ravi K Gupta - Portfolio Site
+## Pushpak Thakur - Portfolio Site
 
 This is a minimal, single-page portfolio. All content lives as plain YAML files in `content/` (Statamic-style), so you can edit text without touching any code or styles.
 
@@ -9,7 +9,7 @@ This is a minimal, single-page portfolio. All content lives as plain YAML files 
 - `content/about.yaml` - paragraphs and focus areas.
 - `content/skills.yaml` - skill categories and items.
 - `content/featured.yaml` - the featured project.
-- `content/contributions.yaml` - open source contributions.
+- `content/contributions.yaml` - certifications and achievements.
 - `content/projects.yaml` - full project list.
 - `content/experience.yaml` - roles with bullets and tech stack.
 - `content/education.yaml` - degrees.
